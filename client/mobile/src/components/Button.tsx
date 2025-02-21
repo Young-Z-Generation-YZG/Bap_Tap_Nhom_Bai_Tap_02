@@ -1,14 +1,14 @@
-import "expo-router/entry";
-
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const App = () => {
+const Button = () => {
   return (
     <View>
-      <Text className="text-red-400">App</Text>
+      <Text>Button</Text>
     </View>
   );
 };
 
-export default App;
+export default Button;
+
+const styles = StyleSheet.create({});

@@ -1,5 +1,5 @@
 {
-  "name": "bai_tap_nhom_bai_tap_02",
+  "name": "mobile",
   "version": "1.0.0",
   "main": "./src/app/index.tsx",
   "scripts": {
