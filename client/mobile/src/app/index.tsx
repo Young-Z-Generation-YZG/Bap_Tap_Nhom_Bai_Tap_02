@@ -21,10 +21,16 @@ const App = () => {
               On boarding Screen
             </Text>
           </View>
-          <View className="mb-32">
+          <View className="mb-32 flex flex-col items-center">
             <Link
               className="text-white text-xl font-semibold font-Poppins-SemiBold"
-              href="/(auth)/login"
+              href="/register"
+            >
+                Register
+            </Link>
+            <Link
+              className="text-white text-xl font-semibold font-Poppins-SemiBold"
+              href="/login"
             >
                 Login
             </Link>
