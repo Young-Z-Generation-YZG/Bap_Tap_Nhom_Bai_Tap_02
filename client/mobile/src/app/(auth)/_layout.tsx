@@ -1,4 +1,4 @@
-import "../../global.css";
+import "../../../global.css";
 import React, { useEffect } from "react";
 import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
@@ -58,10 +58,10 @@ const RootLayout = () => {
             }}
           >
             <Stack.Screen name="index" />
-            <Stack.Screen name="(auth)/Login" />
-            <Stack.Screen name="(auth)/Register" />
-            <Stack.Screen name="(auth)/Verify" />
-            <Stack.Screen name="(auth)/ForgetPassword" />
+            <Stack.Screen name="Login" />
+            <Stack.Screen name="Register" />
+            <Stack.Screen name="Verify" />
+            <Stack.Screen name="ForgetPassword" />
           </Stack>
         </SafeAreaProvider>
       </PersistGate>
