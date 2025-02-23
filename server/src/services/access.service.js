@@ -21,6 +21,7 @@ const {
   setMailToken,
   getMailToken,
 } = require("../services/user.service");
+const {sendEmail} = require("../mailer/mailer.service");
 
 // const { random } = require("lodash");
 // const RedisService = require("./redis.service");
@@ -115,11 +116,11 @@ class AccessService {
 
       const randomToken = Math.floor(100000 + Math.random() * 900000);
 
-      // await sendEmail({
-      //    to: email,
-      //    name: firstName,
-      //    mailToken: randomToken,
-      // }); 
+      await sendEmail({
+         to: email,
+         name: firstName,
+         mailToken: randomToken,
+      }); 
 
       // ** Set mail token
       await setMailToken(email, randomToken);

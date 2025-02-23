@@ -20,5 +20,9 @@ module.exports = {
     password: process.env.MAILER_PASSWORD,
     tokenExpiration: process.env.MAILER_TOKEN_EXPIRED_IN,
   },
+  website: {
+    url: process.env.REACT_URL,
+    clientUrl: process.env.CLIENT_URL,
+  },
 };
    
