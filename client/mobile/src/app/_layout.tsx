@@ -58,10 +58,7 @@ const RootLayout = () => {
             }}
           >
             <Stack.Screen name="index" />
-            <Stack.Screen name="(auth)/Login" />
-            <Stack.Screen name="(auth)/Register" />
-            <Stack.Screen name="(auth)/Verify" />
-            <Stack.Screen name="(auth)/ForgetPassword" />
+            <Stack.Screen name="(auth)" />
           </Stack>
         </SafeAreaProvider>
       </PersistGate>
