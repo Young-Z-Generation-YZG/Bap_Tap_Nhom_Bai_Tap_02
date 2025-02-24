@@ -272,6 +272,10 @@ const getMailToken = async (email) => {
    return null;
 };
 
+// [GET] /updateImage?q=
+const updateImage = async (email, image) => {
+   
+};
 
 module.exports = {
    findOneByEmail,
